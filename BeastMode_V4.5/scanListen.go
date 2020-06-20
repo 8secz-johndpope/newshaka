@@ -10,8 +10,9 @@ import (
     "log"
 )
  
+
 func main() {
-    l, err := net.Listen("tcp", "104.36.19.100:39284")
+    l, err := net.Listen("tcp", "162.213.38.71:39284")
     if err != nil {
         fmt.Println(err)
         return
